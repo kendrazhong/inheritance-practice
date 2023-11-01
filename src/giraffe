@@ -1,0 +1,13 @@
+public class Giraffe extends Animal{
+    private boolean longNeck;
+
+    public Fish(String name, int age, int longNeck) {
+        this.longNeck = longNeck;
+    }
+
+    public String giraffeSocialStatus (){
+        if (longNeck){
+            return "this is the cooler giraffe";
+        }
+    }
+}
